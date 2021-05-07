@@ -1,0 +1,98 @@
+body{
+    background-color: darkmagenta;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(223, 11, 170);
+  }
+
+  p{
+      text-decoration: wavy;
+      text-align: center;
+      font-size:2cm;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: oblique;
+      color: yellow;
+  }
+
+  @media screen and (max-width:500px)
+  
+  {
+    body{
+        background-color: rgb(220, 223, 11);
+
+    } 
+    p{
+      text-decoration: wavy;
+      text-align: center;
+      font-size:2cm;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      color: rgb(255, 0, 55);
+
+    }   
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(15, 25, 121);
+      }
+      li a:hover {
+        background-color: rgb(11, 223, 92);
+  }
+  @media screen and (max-width:800px)
+  and (min-width: 500px)
+  {
+    body{
+      background-color: brown;
+    }
+    p{
+        text-decoration: wavy;
+        text-align: center;
+        font-size:2cm;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        color: rgb(102, 255, 0);
+  
+
+  }
+  @media screen and (max-width:1000px)and (min-width:800px){
+    body{
+        background-color: rgb(252, 255, 86);
+
+    } 
+
+    p{
+        
+        text-decoration: wavy;
+        text-align: center;
+        font-size:2cm;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        color: rgb(0, 81, 255);
+  
+
+  }
+ 
